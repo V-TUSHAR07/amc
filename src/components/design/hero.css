@@ -1,0 +1,16 @@
+@keyframes glowPulse {
+    0% {
+      box-shadow: 0 0 5px rgba(255, 215, 0, 0.6);
+    }
+    50% {
+      box-shadow: 0 0 15px rgba(255, 215, 0, 1);
+    }
+    100% {
+      box-shadow: 0 0 5px rgba(255, 215, 0, 0.6);
+    }
+  }
+  
+  .glowing-circle {
+    animation: glowPulse 2s infinite alternate;
+  }
+  

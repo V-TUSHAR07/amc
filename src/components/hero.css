@@ -1,0 +1,18 @@
+.glow-animation {
+    color: #ff00ff; /* Neon pink */
+    text-shadow: 0 0 8px #ff00ffc8, 0 0 16px #ff00ff4f;
+    animation: glowPulse 2s infinite alternate;
+  }
+  
+  @keyframes glowPulse {
+    0% {
+      text-shadow: 0 0 18px #ff01dda7, 0 0 16px #ff01dda7;
+    }
+    50% {
+      text-shadow: 0 0 20px #ff01dda7, 0 0 30px #ff01dda7;
+    }
+    100% {
+      text-shadow: 0 0 0px #ff01dda7, 0 0 0px #ff01dda7;
+    }
+  }
+    
