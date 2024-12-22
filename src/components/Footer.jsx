@@ -8,7 +8,9 @@ const Footer = () => {
     <Section crosses className="!px-0 !py-10" id="contact">
       <div className="container flex sm:justify-between justify-center items-center gap-16 max-sm:flex-col">
         <div className="text-center lg:text-left text-n-4">
-          <h1 className="font-semibold text-2xl text-white mb-2 ">About AMC Institutions</h1>
+          <h1 className="font-semibold text-2xl text-white mb-2 ">
+            About AMC Institutions
+          </h1>
           <a
             href="https://www.google.com/maps?q=AMC+Engineering+College" // replace with the correct URL for the map
             target="_blank"
@@ -17,7 +19,6 @@ const Footer = () => {
             <FaMapMarkerAlt className="text-xl" />
             <span className="text-lg">View on Map</span>
           </a>
-        
         </div>
 
         <ul className="flex gap-5 flex-wrap">
@@ -45,9 +46,9 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-lg mb-2">Student Coordinator</h3>
             <p className="mb-8 text-gray-300 mt-9">Vishnu M R: 7899356719</p>
-            <p className="mb-8 text-gray-300">Sri Sandhya: 8431723586</p>
+            {/* <p className="mb-8 text-gray-300">Sri Sandhya: 8431723586</p> */}
             <p className="mb-8 text-gray-300">Arushi Arunkumar: 9902110945</p>
-            <p className="mb-8 text-gray-300">Ekta Kumari: 7870810384</p>
+            {/* <p className="mb-8 text-gray-300">Ekta Kumari: 7870810384</p> */}
           </div>
         </div>
       </div>
