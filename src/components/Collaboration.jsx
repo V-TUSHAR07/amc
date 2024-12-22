@@ -48,24 +48,24 @@ const Collaboration = () => {
   }, [isRemoving]);
 
   const events = [
-    { time: "19th Dec, 7:30 AM", title: "Reporting Start" },
-    { time: "19th Dec, 8:30 AM", title: "Breakfast" },
-    { time: "19th Dec, 10:00 AM", title: "Inauguration and End of Reporting" },
-    { time: "19th Dec, 10:45 AM", title: "Tea Break" },
-    { time: "19th Dec, 11:15 AM", title: "Hackathon Begins" },
-    { time: "19th Dec, 1:00 PM - 2:00 PM", title: "Lunch Break" },
-    { time: "19th Dec, 4:30 PM - 5:00 PM", title: "Tea Break" },
-    { time: "19th Dec, 5:00 PM", title: "Review 1" },
-    { time: "19th Dec, 8:30 PM - 9:30 PM", title: "Dinner" },
-    { time: "19th Dec, 11:00 PM", title: "Review 2" },
-    { time: "20th Dec, 1:00 AM", title: "Zumba and Tea Break" },
-    { time: "20th Dec, 4:00 AM", title: "Tea Break" },
-    { time: "20th Dec, 5:00 AM", title: "Review 3" },
-    { time: "20th Dec, 6:00 AM", title: "Yoga Session" },
-    { time: "20th Dec, 8:30 AM - 9:30 AM", title: "Breakfast" },
-    { time: "20th Dec, 11:15 AM", title: "End of Hackathon and Final Review" },
-    { time: "20th Dec, 11:15 AM - 12:00 PM", title: "Cultural Events" },
-    { time: "20th Dec, 12:00 PM", title: "Results" },
+    { time: "Day 1, 7:30 AM", title: "Reporting Start" },
+    { time: "Day 1, 8:30 AM", title: "Breakfast" },
+    { time: "Day 1, 10:00 AM", title: "Inauguration and End of Reporting" },
+    { time: "Day 1, 10:45 AM", title: "Tea Break" },
+    { time: "Day 1, 11:15 AM", title: "Hackathon Begins" },
+    { time: "Day 1, 1:00 PM - 2:00 PM", title: "Lunch Break" },
+    { time: "Day 1, 4:30 PM - 5:00 PM", title: "Tea Break" },
+    { time: "Day 1, 5:00 PM", title: "Review 1" },
+    { time: "Day 1, 8:30 PM - 9:30 PM", title: "Dinner" },
+    { time: "Day 1, 11:00 PM", title: "Review 2" },
+    { time: "Day 2, 1:00 AM", title: "Zumba and Tea Break" },
+    { time: "Day 2, 4:00 AM", title: "Tea Break" },
+    { time: "Day 2, 5:00 AM", title: "Review 3" },
+    { time: "Day 2, 6:00 AM", title: "Yoga Session" },
+    { time: "Day 2, 8:30 AM - 9:30 AM", title: "Breakfast" },
+    { time: "Day 2, 11:15 AM", title: "End of Hackathon and Final Review" },
+    { time: "Day 2, 11:15 AM - 12:00 PM", title: "Cultural Events" },
+    { time: "Day 2, 12:00 PM", title: "Results" },
   ];
 
   return (
@@ -83,12 +83,8 @@ const Collaboration = () => {
         </div>
         <div className="lg:ml-auto xl:w-[38rem] mt-4">
           <div className="w-full py-10 flex flex-col items-center">
-            <div className="relative w-full max-w-4xl">
-              {/* Vertical timeline line */}
-
-              {/* Events section */}
+            {/* <div className="relative w-full max-w-4xl">
               <div className="relative w-full max-w-4xl">
-                {/* Events section */}
                 <div className="space-y-12">
                   {events.map((event, index) => (
                     <motion.div
@@ -102,7 +98,6 @@ const Collaboration = () => {
                         ease: "easeOut",
                       }}
                     >
-                      {/* Time marker */}
                       <div className="flex flex-col items-center mb-4 lg:mb-0">
                         <div className="h-36 w-44 bg-transparent border-4 border-purple-500 text-purple-500 flex items-center justify-center rounded-full">
                           <span className="text-sm text-center break-words px-2">
@@ -112,7 +107,6 @@ const Collaboration = () => {
                         <div className="w-1 h-9 bg-purple-500"></div>
                       </div>
 
-                      {/* Event content box */}
                       <motion.div
                         className="p-6 rounded-lg shadow-lg w-full lg:w-96 bg-purple-600 text-white"
                         initial={{ opacity: 0, x: -50 }}
@@ -131,7 +125,8 @@ const Collaboration = () => {
                   ))}
                 </div>
               </div>
-            </div>
+            </div> */}
+            <h1 className="h5 border-purple-500 text-purple-500 gg-purple">Will Be Announced Shortly</h1>
           </div>
         </div>
       </div>

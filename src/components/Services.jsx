@@ -17,7 +17,11 @@ const Services = () => {
       <div className="container">
         <Heading title="Rules & Regulations" />
         <div className="relative">
-          <p className="body-2 mb-[3rem] text-n-3">
+          <h1 className="h5 border-purple-500 text-purple-500 gg-purple">
+            Will Be Announced Shortly
+          </h1>
+
+          {/* <p className="body-2 mb-[3rem] text-n-3">
             MUST FOLLOW ALL THE RULES AND REGULATIONS
           </p>
           <ul className="body-2">
@@ -30,7 +34,7 @@ const Services = () => {
                 <p className="ml-4">{item}</p>
               </li>
             ))}
-          </ul>
+          </ul> */}
           <Gradient />
         </div>
       </div>
